@@ -1,40 +1,26 @@
 library(text2vec)
-#save(word_vectors,file = "xy.RData")
-load("data/wv.Rdata")
 
-#mysample <- read.csv("MyData.csv",sep=",")
-#Sys.setenv(word_vectors)  # `A+C` could also be used
-#get = Sys.getenv("R_TEST",unset = NA)
-# tokens <- space_tokenizer(as.character(get$commentss))
-# it = itoken(tokens, progressbar = FALSE)
-# vocab <- create_vocabulary(it)
-# vectorizer <- vocab_vectorizer(vocab)
-# tcm <- create_tcm(it, vectorizer, skip_grams_window = 3L)
-# glove = GlobalVectors$new(word_vectors_size = 50, vocabulary = vocab, x_max = 10)
-# word_vectors1 = glove$fit_transform(tcm, n_iter = 10)
-# install.packages("MASS")
-# library(MASS)
-#write.table(word_vectors,file="test.txt",row.names=FALSE)
-#temp = read.table("wordvec", sep = " ")
-#temp = read.table("test.txt",header=TRUE)
 library(tidyverse)
 library(tm)
 library(wordcloud)
 library(tmap)
 library(shinycssloaders)
 library(shiny)
-# # write.table(word_vectors,"aaa.txt",col.names=F,row.names=F)
-# # 
-# # bbb<-as.matrix(read.table(file="aaa.txt",header=T))
-# #colnames(bbb)<-NULL
-# 
+
+#save(word_vectors,file = "wv.RData") : used previously in the twitter_vector.Rmd file
+
+load("data/wvv.Rdata") #workspace object word_vectors has now been loaded
+
+
+#ui part of our code, generates the panels and we specify display text.
 ui <- fluidPage(
   sidebarLayout(
     # Sidebar with a slider and selection inputs
+    
     sidebarPanel(
       textInput("caption", "Query Word", "happy"),
-      #actionButton("update", "Change"),
       
+      #slider that ranges from 1 to 300 words for wordcloud. new wordcloud generated each time this value changes.
       sliderInput("max",
                   "Maximum Number of Words:",
                   min = 1,  max = 300,  value = 80)
@@ -47,9 +33,9 @@ ui <- fluidPage(
       h6("Gives error for words not in corpus. Common words like 'happy', 'sad', 'fear', 'play',etc. Bear in mind, this returns words used in similar context, not necessarily synonyms."),
       withSpinner(plotOutput("plot"))
     )
-    #verbatimTextOutput("value")
   ))
 
+#server part where calculation is performed.
 server = function(input,output) {
   
   output$plot <-renderPlot({
@@ -69,5 +55,6 @@ server = function(input,output) {
   
 }
 
+#calls the app ui and server functions.
 shinyApp(ui, server)
 

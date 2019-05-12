@@ -19,11 +19,15 @@ The words vector is then bundled with our Shiny app and deployed to the Server. 
 
 #Loading the relevant text2vec and dplyr libraries.
 
-# install.packages("text2vec")
-# library(text2vec)
-# library(dplyr)
+install.packages("text2vec")
+library(text2vec)
+library(dplyr)
+
+#read labeled_data file from data folder
 tweets = read_csv('data/labeled_data.csv')['tweet']
-tweets[- grep("@", tweets$tweet),]
+#filter out the tweets with @ , i.e handle name
+tweets = tweets[ grep("@", tweets$tweet, invert = TRUE) , ]
+tweets = tweets[ grep("&", tweets$tweet, invert = TRUE) , ]
 #tweets are tokenized using the space tokenizer method
 tokens <- space_tokenizer(as.character(tweets))
 it = itoken(tokens, progressbar = FALSE)
@@ -37,14 +41,9 @@ glove = GlobalVectors$new(word_vectors_size = 50, vocabulary = vocab, x_max = 10
 
 word_vectors = glove$fit_transform(tcm, n_iter = 20)
 word_vectors1 <- glove$components
-save(word_vectors,file = "w_v.Rdata")
+save(word_vectors,file = "data/wvv.Rdata")
 
 ```
 
 
-```{r}
 
-word_vectors1['happy', , drop = FALSE]
-
-
-```
