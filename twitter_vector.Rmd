@@ -1,0 +1,45 @@
+---
+title: "Twitter_vector"
+author: "Ankit Peshin"
+date: "5/11/2019"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+The following chunk of code trains a word2vec model on the tweets provided with the Davidson et al. paper. The 50 dimensional word vector is then stored with an .Rdata extension (which is used to store objects from an Rdata workspace).
+
+The words vector is then bundled with our Shiny app and deployed to the Server. The deployed app simply reads from this .Rdata file to restore the wordvector instead of training the model everytime it is started. 
+
+```{r cars}
+# install.packages("text2vec")
+# library(text2vec)
+# library(dplyr)
+tweets = read_csv('../data/labeled_data.csv')['tweet']
+tokens <- space_tokenizer(as.character(tweets))
+tokens = grep("^[^#;]", tokens, value = TRUE)
+it = itoken(tokens, progressbar = FALSE)
+vocab <- create_vocabulary(it)
+vocab = prune_vocabulary(vocab, term_count_min = 5L)
+
+vectorizer <- vocab_vectorizer(vocab)
+# # use window of 5 for context words
+tcm <- create_tcm(it, vectorizer, skip_grams_window = 5L)
+glove = GlobalVectors$new(word_vectors_size = 50, vocabulary = vocab, x_max = 10)
+# glove = GlobalVectors$new(word_vectors_size = 50, vocabulary = vocab, x_max = 10)
+# # `glove` object will be modified by `fit()` call !
+word_vectors = glove$fit_transform(tcm, n_iter = 20)
+word_vectors1 <- glove$components
+save(word_vectors,file = "wv.Rdata")
+
+```
+
+
+```{r}
+
+word_vectors1['happy', , drop = FALSE]
+
+
+```
