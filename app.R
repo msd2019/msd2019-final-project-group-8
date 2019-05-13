@@ -49,7 +49,7 @@ server = function(input,output) {
     df = df[!duplicated(df$item), ]
     
     set.seed(1234)
-    wordcloud(words = df$item, freq = df$freq*2, scale = c(2,0.2),
+    wordcloud(words = df$item, freq = df$freq*2, scale = c(3,0.3),
               max.words=input$max, random.order=FALSE, rot.per=0.2,
               colors=brewer.pal(5, "Dark2"))},height = 600, width = 700 )
   

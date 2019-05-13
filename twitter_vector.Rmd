@@ -9,7 +9,7 @@ output: pdf_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-You can find the ShinyApp running here : https://ankitpeshin.shinyapps.io/twitter_app/
+You can find the ShinyApp running here : hhttps://ankitpeshin.shinyapps.io/Twitter-wordvec/
 
 The following chunk of code trains a word2vec model on the tweets provided with the Davidson et al. paper. The 50 dimensional word vector is then stored with an .Rdata extension (which is used to store objects from an Rdata workspace).
 
@@ -41,7 +41,7 @@ glove = GlobalVectors$new(word_vectors_size = 50, vocabulary = vocab, x_max = 10
 
 word_vectors = glove$fit_transform(tcm, n_iter = 20)
 word_vectors1 <- glove$components
-save(word_vectors,file = "data/wvv.Rdata")
+save(word_vectors,file = "wvv.Rdata")
 
 ```
 

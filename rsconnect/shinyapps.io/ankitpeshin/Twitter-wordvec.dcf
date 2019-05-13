@@ -1,0 +1,12 @@
+name: Twitter-wordvec
+title: Twitter-wordvec
+username:
+account: ankitpeshin
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 926330
+bundleId: 2080028
+url: https://ankitpeshin.shinyapps.io/Twitter-wordvec/
+when: 1557743156.65507
+asMultiple: FALSE
+asStatic: FALSE
