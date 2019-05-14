@@ -19,7 +19,7 @@ The repository is structured as follows:
 Colab notebook links:
 
 
-multiclass base paper replication: https://colab.research.google.com/drive/1LNLkaRnlGfxSEIFpITW1tksxwC3SXAoX#scrollTo=f1EMZjSyZZ1k	
+[multiclass base paper replication](https://colab.research.google.com/drive/1LNLkaRnlGfxSEIFpITW1tksxwC3SXAoX#scrollTo=f1EMZjSyZZ1k)	
 
 Binary class base paper extension: https://colab.research.google.com/drive/1EjDzQ2JWiRdNDzZV-EB7c3QIxV-kY4xm#scrollTo=LkO291wljIJv	
 
