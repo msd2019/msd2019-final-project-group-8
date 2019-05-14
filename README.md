@@ -77,9 +77,13 @@ Transfer Learning multiclass: https://colab.research.google.com/drive/1LNLkaRnlG
 
 Train test_both_data: https://colab.research.google.com/drive/1Jl_IAWQr5LQDJeHY9oBRV6a-7OM2Dt8i	
 
+Transfer learning across datasets: https://colab.research.google.com/drive/16ORmkAg6flQs7f4n34ObLBAuCM6oiE9t
+
 Exploratory Data Analysis on Binary Class Data: https://colab.research.google.com/drive/1ZipL4JyimrM8lVV4_nAo2iXJiHr_FXoo	
 
 Exploratory data analysis on multiclass data: https://colab.research.google.com/drive/1hfhtsm5NZeEYeRTI-B0dLqYUPjmAHdXM	
+
+Youtube comments analysis: https://colab.research.google.com/drive/1LQa3zxup6kc56jrqVVEoxNleRCs0AwCv
 
 
 ----
