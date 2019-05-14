@@ -18,11 +18,17 @@ The repository is structured as follows:
 
 Colab notebook links:
 https://colab.research.google.com/drive/1LNLkaRnlGfxSEIFpITW1tksxwC3SXAoX#scrollTo=f1EMZjSyZZ1k	multiclass replication
+
 https://colab.research.google.com/drive/1kjCE2owX_s6yCK7pp7SkBY5ytKXfHs-n#scrollTo=f1EMZjSyZZ1k	transfer_learning_binary
+
 https://colab.research.google.com/drive/1EjDzQ2JWiRdNDzZV-EB7c3QIxV-kY4xm#scrollTo=LkO291wljIJv	final binary
+
 https://colab.research.google.com/drive/1LNLkaRnlGfxSEIFpITW1tksxwC3SXAoX#scrollTo=f1EMZjSyZZ1k	transfer multiclass
+
 https://colab.research.google.com/drive/1Jl_IAWQr5LQDJeHY9oBRV6a-7OM2Dt8i	train_test_both_data
+
 https://colab.research.google.com/drive/1ZipL4JyimrM8lVV4_nAo2iXJiHr_FXoo	Exploratory data analysis binary class
+
 https://colab.research.google.com/drive/1hfhtsm5NZeEYeRTI-B0dLqYUPjmAHdXM	Exploratory data analysis
 
 ----
