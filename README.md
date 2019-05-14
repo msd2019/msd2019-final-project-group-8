@@ -58,12 +58,12 @@ Our original plans included performing a hate speech based analysis of comment s
 
 
 
-Datasets:
+# Datasets:
 We use the following datasets in our codes:
 1. Original author's data: https://github.com/t-davidson/hate-speech-and-offensive-language/tree/master/data
 2. Hate Speech Data from a white supremacist forum: https://github.com/aitor-garcia-p/hate-speech-dataset
 
-Colab notebook links:
+# Colab notebook links:
 To run these colab notebooks, upload the files from data and feed the path of the uploaded files to read_csv functions in the notebook.
 All files need only the file "labelled_data.csv" apart from "Train test both data" which needs "labelled_data.csv" and "all_tweets.csv"
 
