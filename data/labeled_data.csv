@@ -41,7 +41,7 @@
   
   <meta name="pjax-timeout" content="1000">
   
-  <meta name="request-id" content="EE55:569E:70891E:BB64BF:5CDA34A1" data-pjax-transient>
+  <meta name="request-id" content="DFE5:26EF:1FA9785:358EC33:5CDA3CAD" data-pjax-transient>
 
 
   
@@ -52,7 +52,7 @@
     <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
     <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
 
-  <meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="EE55:569E:70891E:BB64BF:5CDA34A1" /><meta name="octolytics-dimension-region_edge" content="iad" /><meta name="octolytics-dimension-region_render" content="iad" />
+  <meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="DFE5:26EF:1FA9785:358EC33:5CDA3CAD" /><meta name="octolytics-dimension-region_edge" content="iad" /><meta name="octolytics-dimension-region_render" content="iad" />
 <meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" />
 
 
@@ -70,11 +70,11 @@
     <meta name="user-login" content="">
 
       <meta name="expected-hostname" content="github.com">
-    <meta name="js-proxy-site-detection-payload" content="ZjAzNTQ4ZmJmNDJhMTE2N2VjOTg3MGY0ZjkwMzJhZWQ5ZmQ1YzM1MGE1MmFjNDc2OTZjYzY5ZDgyMWI5MjBiMnx7InJlbW90ZV9hZGRyZXNzIjoiMjA3LjIzNy4xNjQuMTk5IiwicmVxdWVzdF9pZCI6IkVFNTU6NTY5RTo3MDg5MUU6QkI2NEJGOjVDREEzNEExIiwidGltZXN0YW1wIjoxNTU3ODA0MTkzLCJob3N0IjoiZ2l0aHViLmNvbSJ9">
+    <meta name="js-proxy-site-detection-payload" content="ZjZjOWMxYjVjMDg4ZTJjNTAxY2JlZjdlMzUzNTEwYjBmMzI0ODE3Mjg0NDYzNzBmOTRkZjZmZjc4ZjMwYmE0Mnx7InJlbW90ZV9hZGRyZXNzIjoiMjA3LjIzNy4xNjQuMTk5IiwicmVxdWVzdF9pZCI6IkRGRTU6MjZFRjoxRkE5Nzg1OjM1OEVDMzM6NUNEQTNDQUQiLCJ0aW1lc3RhbXAiOjE1NTc4MDYyNTMsImhvc3QiOiJnaXRodWIuY29tIn0=">
 
     <meta name="enabled-features" content="UNIVERSE_BANNER,MARKETPLACE_INVOICED_BILLING,MARKETPLACE_SOCIAL_PROOF_CUSTOMERS,MARKETPLACE_TRENDING_SOCIAL_PROOF,MARKETPLACE_RECOMMENDATIONS">
 
-  <meta name="html-safe-nonce" content="96d251a321138877979401551f83704d01a1905d">
+  <meta name="html-safe-nonce" content="bfc80a76385b9093785ccacfe183187dac530969">
 
   <meta http-equiv="x-pjax-version" content="b8db298694647a2a3bfa8b3a7d880f2d">
   
@@ -136,7 +136,7 @@
           </div>
 
         <div class="d-flex flex-items-center">
-            <a class="d-inline-block d-lg-none f5 text-white no-underline border border-gray-dark rounded-2 px-2 py-1 mr-3 mr-sm-5" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;EE55:569E:70891E:BB64BF:5CDA34A1&quot;,&quot;originating_url&quot;:&quot;https://github.com/t-davidson/hate-speech-and-offensive-language/blob/master/data/labeled_data.p&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="bf51da611057aba5af519dd7d82c3870855a6ac3a65d0cbfb6a489dd5f2aeefe" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up" href="/join?source=header-repo">
+            <a class="d-inline-block d-lg-none f5 text-white no-underline border border-gray-dark rounded-2 px-2 py-1 mr-3 mr-sm-5" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;DFE5:26EF:1FA9785:358EC33:5CDA3CAD&quot;,&quot;originating_url&quot;:&quot;https://github.com/t-davidson/hate-speech-and-offensive-language/blob/master/data/labeled_data.p&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="0161b915c28dea5ca252c27482c44d614a3c521a9a9d4cffa33bf5ad2e99eb50" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up" href="/join?source=header-repo">
               Sign&nbsp;up
 </a>
           <button class="btn-link d-lg-none mt-1 js-details-target" type="button" aria-label="Toggle navigation" aria-expanded="false">
@@ -275,7 +275,7 @@
           aria-autocomplete="list"
           aria-controls="jump-to-results"
           aria-label="Search"
-          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations#csrf-token=dY1LX1R1VZSpiLsHSwIu0f0juIT4KOouYFxJKpixMoOMrNThgFs9yxSV8rSiRL3rfYf+mEYdLba/pwZpQT6MsQ=="
+          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations#csrf-token=8aBCiAFy2HyH0CEAMRM4pzCr6E3Ky5rcxroxj5+EWShZf1BEv2dhSU1NZMBRY3SR+QB7fFtnnbWSOT1kK17riQ=="
           spellcheck="false"
           autocomplete="off"
           >
@@ -400,9 +400,9 @@
 
           </div>
 
-        <a class="HeaderMenu-link no-underline mr-3" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;EE55:569E:70891E:BB64BF:5CDA34A1&quot;,&quot;originating_url&quot;:&quot;https://github.com/t-davidson/hate-speech-and-offensive-language/blob/master/data/labeled_data.p&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="3543f9290c5fe6c87566cb43d929bc151ac2aebf6c9ba03786391c5bb0742c3b" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in" href="/login?return_to=%2Ft-davidson%2Fhate-speech-and-offensive-language%2Fblob%2Fmaster%2Fdata%2Flabeled_data.p">
+        <a class="HeaderMenu-link no-underline mr-3" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;DFE5:26EF:1FA9785:358EC33:5CDA3CAD&quot;,&quot;originating_url&quot;:&quot;https://github.com/t-davidson/hate-speech-and-offensive-language/blob/master/data/labeled_data.p&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="43b49b80991c2bfb0a1ce62e66d56cba2d783c98b90cae0b6770cf5322fc6259" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in" href="/login?return_to=%2Ft-davidson%2Fhate-speech-and-offensive-language%2Fblob%2Fmaster%2Fdata%2Flabeled_data.p">
           Sign&nbsp;in
-</a>          <a class="HeaderMenu-link d-inline-block no-underline border border-gray-dark rounded-1 px-2 py-1" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;EE55:569E:70891E:BB64BF:5CDA34A1&quot;,&quot;originating_url&quot;:&quot;https://github.com/t-davidson/hate-speech-and-offensive-language/blob/master/data/labeled_data.p&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="ca0be98e546699172813df87b43ee8657c4b820fce99b63c38327bb5b0f0db5d" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up" href="/join?source=header-repo">
+</a>          <a class="HeaderMenu-link d-inline-block no-underline border border-gray-dark rounded-1 px-2 py-1" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;DFE5:26EF:1FA9785:358EC33:5CDA3CAD&quot;,&quot;originating_url&quot;:&quot;https://github.com/t-davidson/hate-speech-and-offensive-language/blob/master/data/labeled_data.p&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="7eaf531af278a147b124e75c109ab275840730d04ff8aaf6d1b18149b83144f3" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up" href="/join?source=header-repo">
             Sign&nbsp;up
 </a>      </div>
     </div>
@@ -443,7 +443,7 @@
 
   <li>
     
-  <a class="tooltipped tooltipped-s btn btn-sm btn-with-count" aria-label="You must be signed in to watch a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;notification subscription menu watch&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;EE55:569E:70891E:BB64BF:5CDA34A1&quot;,&quot;originating_url&quot;:&quot;https://github.com/t-davidson/hate-speech-and-offensive-language/blob/master/data/labeled_data.p&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="89494ec14bbf366d474b2a536b309ffaedbedf127478cb19e1d96feaa4431654" href="/login?return_to=%2Ft-davidson%2Fhate-speech-and-offensive-language">
+  <a class="tooltipped tooltipped-s btn btn-sm btn-with-count" aria-label="You must be signed in to watch a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;notification subscription menu watch&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;DFE5:26EF:1FA9785:358EC33:5CDA3CAD&quot;,&quot;originating_url&quot;:&quot;https://github.com/t-davidson/hate-speech-and-offensive-language/blob/master/data/labeled_data.p&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="d02403e324a9520b40a22933fc555d65a709fb3a90f011cad88091d417fb501e" href="/login?return_to=%2Ft-davidson%2Fhate-speech-and-offensive-language">
     <svg class="octicon octicon-eye v-align-text-bottom" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
     Watch
 </a>    <a class="social-count" href="/t-davidson/hate-speech-and-offensive-language/watchers"
@@ -454,7 +454,7 @@
   </li>
 
   <li>
-        <a class="btn btn-sm btn-with-count tooltipped tooltipped-s" aria-label="You must be signed in to star a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:83585768,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;EE55:569E:70891E:BB64BF:5CDA34A1&quot;,&quot;originating_url&quot;:&quot;https://github.com/t-davidson/hate-speech-and-offensive-language/blob/master/data/labeled_data.p&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="569fd3dea75b0cb712ed2fe3166776211da25dd47cb3e778c32a77a483d264e0" href="/login?return_to=%2Ft-davidson%2Fhate-speech-and-offensive-language">
+        <a class="btn btn-sm btn-with-count tooltipped tooltipped-s" aria-label="You must be signed in to star a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:83585768,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;DFE5:26EF:1FA9785:358EC33:5CDA3CAD&quot;,&quot;originating_url&quot;:&quot;https://github.com/t-davidson/hate-speech-and-offensive-language/blob/master/data/labeled_data.p&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="2f93ab7e3a61a93a6a5a672c7b461fd757f8f823a6c513aec7518f5d99174c68" href="/login?return_to=%2Ft-davidson%2Fhate-speech-and-offensive-language">
       <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
       Star
 </a>
@@ -466,7 +466,7 @@
   </li>
 
   <li>
-      <a class="btn btn-sm btn-with-count tooltipped tooltipped-s" aria-label="You must be signed in to fork a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;repo details fork button&quot;,&quot;repository_id&quot;:83585768,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;EE55:569E:70891E:BB64BF:5CDA34A1&quot;,&quot;originating_url&quot;:&quot;https://github.com/t-davidson/hate-speech-and-offensive-language/blob/master/data/labeled_data.p&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="94f26a94d9591019a51c12ef72cf3f09d01e667dcbeb47194efe109ae788912e" href="/login?return_to=%2Ft-davidson%2Fhate-speech-and-offensive-language">
+      <a class="btn btn-sm btn-with-count tooltipped tooltipped-s" aria-label="You must be signed in to fork a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;repo details fork button&quot;,&quot;repository_id&quot;:83585768,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;DFE5:26EF:1FA9785:358EC33:5CDA3CAD&quot;,&quot;originating_url&quot;:&quot;https://github.com/t-davidson/hate-speech-and-offensive-language/blob/master/data/labeled_data.p&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="489f8e8af99a1e591688f5ae0fbc8473bdf597b0e778f6ee8bb5e425ce963107" href="/login?return_to=%2Ft-davidson%2Fhate-speech-and-offensive-language">
         <svg class="octicon octicon-repo-forked v-align-text-bottom" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
         Fork
 </a>
@@ -591,13 +591,13 @@
           <div class="signup-prompt-bg rounded-1">
       <div class="signup-prompt p-4 text-center mb-4 rounded-1">
         <div class="position-relative">
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/prompt_dismissals/signup" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="_method" value="put" /><input type="hidden" name="authenticity_token" value="cwWVHlIuj269j14YGZD9idbPs8ZlVv1ryqbEh39gIcGuN1GQXSgXova09r8ojrHFAuvNkkyHSql7ABX43pINAQ==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/prompt_dismissals/signup" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="_method" value="put" /><input type="hidden" name="authenticity_token" value="+uk3FfBD0e53cPZXsGPMOfiEaZ3WIdFWAuot5Ywz4/ZuUJh0kfNMVt1f8GzGMmq5vpQrWQxxGFDOuyXgs7WHqA==" />
             <button type="submit" class="position-absolute top-0 right-0 btn-link link-gray" data-ga-click="(Logged out) Sign up prompt, clicked Dismiss, text:dismiss">
               Dismiss
             </button>
 </form>          <h3 class="pt-2">Join GitHub today</h3>
           <p class="col-6 mx-auto">GitHub is home to over 36 million developers working together to host and review code, manage projects, and build software together.</p>
-          <a class="btn btn-primary" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;files signup prompt&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;EE55:569E:70891E:BB64BF:5CDA34A1&quot;,&quot;originating_url&quot;:&quot;https://github.com/t-davidson/hate-speech-and-offensive-language/blob/master/data/labeled_data.p&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="81a31d67fa42176e384e86963a3488912d2f29554cc2ad9f4fc528f75df7e07d" data-ga-click="(Logged out) Sign up prompt, clicked Sign up, text:sign-up" href="/join?source=prompt-blob-show">Sign up</a>
+          <a class="btn btn-primary" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;files signup prompt&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;DFE5:26EF:1FA9785:358EC33:5CDA3CAD&quot;,&quot;originating_url&quot;:&quot;https://github.com/t-davidson/hate-speech-and-offensive-language/blob/master/data/labeled_data.p&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="d9341874b1c8f7a48c7a76147a0df624f8df9eda8e25a9464991b32ebdcbbc19" data-ga-click="(Logged out) Sign up prompt, clicked Sign up, text:sign-up" href="/join?source=prompt-blob-show">Sign up</a>
         </div>
       </div>
     </div>
@@ -686,7 +686,7 @@
 
     <div>
 
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/t-davidson/hate-speech-and-offensive-language/delete/master/data/labeled_data.p" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="qIfpxbXOgtP9lPcVBCsqzRd884NYjgZytN9J8MDFBkDAud1FtysA4tweCt85bO2bVJLbOrdeSc/O+alYxjQ+Ng==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/t-davidson/hate-speech-and-offensive-language/delete/master/data/labeled_data.p" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="uFmZhTRSF4X+oRMxbJ9PnuUIZIZw25aBgYxWmeVjvvNgIkPvhUwYKZibk9qHwQqm+yQnp56v4P8yyj8Rx/fmtA==" />
             <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
               aria-label="You must be signed in to make or propose changes" data-disable-with>
               <svg class="octicon octicon-trashcan" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 2H9c0-.55-.45-1-1-1H5c-.55 0-1 .45-1 1H2c-.55 0-1 .45-1 1v1c0 .55.45 1 1 1v9c0 .55.45 1 1 1h7c.55 0 1-.45 1-1V5c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm-1 12H3V5h1v8h1V5h1v8h1V5h1v8h1V5h1v9zm1-10H2V3h9v1z"/></svg>
@@ -733,7 +733,7 @@
 <div class="footer container-lg width-full p-responsive" role="contentinfo">
   <div class="position-relative d-flex flex-row-reverse flex-lg-row flex-wrap flex-lg-nowrap flex-justify-center flex-lg-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
     <ul class="list-style-none d-flex flex-wrap col-12 col-lg-5 flex-justify-center flex-lg-justify-between mb-2 mb-lg-0">
-      <li class="mr-3 mr-lg-0">&copy; 2019 <span title="0.26857s from unicorn-5fbb8cc996-8jlx7">GitHub</span>, Inc.</li>
+      <li class="mr-3 mr-lg-0">&copy; 2019 <span title="0.27399s from unicorn-5fbb8cc996-vtwk4">GitHub</span>, Inc.</li>
         <li class="mr-3 mr-lg-0"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
         <li class="mr-3 mr-lg-0"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
         <li class="mr-3 mr-lg-0"><a data-ga-click="Footer, go to security, text:security" href="https://github.com/security">Security</a></li>
