@@ -17,17 +17,26 @@ The repository is structured as follows:
 2. `05_final_report.Rmd` analysis both the original and new data to replicate and extend the results of the original paper, and produces the final report `05_final_report.pdf`
 
 Colab notebook links:
-`https://colab.research.google.com/drive/1LNLkaRnlGfxSEIFpITW1tksxwC3SXAoX#scrollTo=f1EMZjSyZZ1k`	multiclass replication
 
-https://colab.research.google.com/drive/1kjCE2owX_s6yCK7pp7SkBY5ytKXfHs-n#scrollTo=f1EMZjSyZZ1k	transfer_learning_binary
 
-https://colab.research.google.com/drive/1EjDzQ2JWiRdNDzZV-EB7c3QIxV-kY4xm#scrollTo=LkO291wljIJv	final binary
+multiclass base paper replication: https://colab.research.google.com/drive/1LNLkaRnlGfxSEIFpITW1tksxwC3SXAoX#scrollTo=f1EMZjSyZZ1k	
 
-https://colab.research.google.com/drive/1LNLkaRnlGfxSEIFpITW1tksxwC3SXAoX#scrollTo=f1EMZjSyZZ1k	transfer multiclass
+Binary class base paper extension: https://colab.research.google.com/drive/1EjDzQ2JWiRdNDzZV-EB7c3QIxV-kY4xm#scrollTo=LkO291wljIJv	
 
-https://colab.research.google.com/drive/1Jl_IAWQr5LQDJeHY9oBRV6a-7OM2Dt8i	train_test_both_data
+Transfer_learning_binary class: https://colab.research.google.com/drive/1kjCE2owX_s6yCK7pp7SkBY5ytKXfHs-n#scrollTo=f1EMZjSyZZ1k	
 
-https://colab.research.google.com/drive/1ZipL4JyimrM8lVV4_nAo2iXJiHr_FXoo	Exploratory data analysis binary class
+Transfer Learning multiclass: https://colab.research.google.com/drive/1LNLkaRnlGfxSEIFpITW1tksxwC3SXAoX#scrollTo=f1EMZjSyZZ1k	
 
-https://colab.research.google.com/drive/1hfhtsm5NZeEYeRTI-B0dLqYUPjmAHdXM	Exploratory data analysis
+Train test_both_data: https://colab.research.google.com/drive/1Jl_IAWQr5LQDJeHY9oBRV6a-7OM2Dt8i	
 
+Exploratory Data Analysis on Binary Class Data: https://colab.research.google.com/drive/1ZipL4JyimrM8lVV4_nAo2iXJiHr_FXoo	
+
+Exploratory data analysis on multiclass data: https://colab.research.google.com/drive/1hfhtsm5NZeEYeRTI-B0dLqYUPjmAHdXM	
+
+----
+
+Notes:
+
+The exact structure of the repository may vary from group to group. For instance, you might have a different number of files, some might be `.R` scripts instead of `.sh` scripts, etc., but follow the basic template and edit this README accordingly so that others can run your code and reproduce _your_ results with one command that executes your entire analysis from start to a finished report. You don't necessarily have to use make for your "run all" command, but it can be quite helpful, especially if the process of getting or cleaning the data takes much longer than running the final analysis and generating the report. Whatever the "run all" command is, it should be clearly noted so that others know what it is and how to execute it. If the data files you are using are small enough, add a copy directly to your repository. If a file is too large to add to the repository, include a URL that points to a copy of the data so that others can access it. 
+
+(Delete these notes in your copy of the repository.)
