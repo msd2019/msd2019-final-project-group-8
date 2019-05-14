@@ -15,6 +15,8 @@ The following chunk of code trains a word2vec model on the tweets provided with 
 
 The words vector is then bundled with our Shiny app and deployed to the Server. The deployed app simply reads from this .Rdata file to restore the wordvector instead of training the model everytime it is started. 
 
+So for example, when you query the word 'happy', a certain set of words used in a similar context are displayed. The panel to the left allows you to increase the size of the wordcloud. Commonly used words like 'fear','sad','hate', and not surprisingly a lot of expletives, will return results. Since the corpus size is limited, many words may not be part of the vocabulary and won't return a wordcloud.
+
 ```{r cars}
 
 #Loading the relevant text2vec and dplyr libraries.

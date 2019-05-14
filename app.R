@@ -29,7 +29,7 @@ ui <- fluidPage(
     # Show Word Cloud
     mainPanel(
       h2("Presenting the Twitter WordCloud Generator!"),
-      h5(" Simply put, the frequently occuring words in the corpus are used to generate a word embedding. Feel free to query any word and the a wordcloud of n-closes words will be generated. You can adjust 'n' on the left panel."),
+      h5(" Simply put, the frequently occuring words in the corpus are used to generate a word embedding. Feel free to query any word and the a wordcloud of n-closest words will be generated. You can adjust 'n' on the left panel."),
       h6("Gives error for words not in corpus. Common words like 'happy', 'sad', 'fear', 'play',etc. Bear in mind, this returns words used in similar context, not necessarily synonyms."),
       withSpinner(plotOutput("plot"))
     )
