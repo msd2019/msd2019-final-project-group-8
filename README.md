@@ -28,6 +28,10 @@ The repository is structured as follows:
 
 9. `extension/single_class_Base_paper_replication ` - a binary class replication of the author's paper
 
+10. `extension/Youtube_comment_scraping ` - Testung the model on commemts of general youtube videos "youtube rewind" and "commite hearing for equality"
+
+11. `extension/Transfer_Learning_binary_classification_new_data ` - Transfer learning on the new data
+
 
 # Additional analysis:
 
