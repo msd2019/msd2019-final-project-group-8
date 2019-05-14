@@ -34,7 +34,8 @@ We use the following datasets in our codes:
 2. Hate Speech Data from a white supremacist forum: https://github.com/aitor-garcia-p/hate-speech-dataset
 
 Colab notebook links:
-
+To run these colab notebooks, upload the files from data and feed the path of the uploaded files to read_csv functions in the notebook.
+All files need only the file "labelled_data.csv" apart from "Train test both data" which needs "labelled_data.csv" and "all_tweets.csv"
 
 multiclass base paper replication: https://colab.research.google.com/drive/1LNLkaRnlGfxSEIFpITW1tksxwC3SXAoX#scrollTo=f1EMZjSyZZ1k	
 
