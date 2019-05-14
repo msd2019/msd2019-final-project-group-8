@@ -1,6 +1,6 @@
 # Final Project for Modeling Social Data, 2019
 
-< Ketakee Nimavat (kkn2112), Chandana priya (cg3111), Ankit Peshin (ap3772) >
+Ketakee Nimavat (kkn2112), Chandana priya (cg3111), Ankit Peshin (ap3772)
 
 This repository has code to attempt to replicate and extend the results in Automated Hate Speech Detection and the Problem of Offensive Language by Thomas Davidson, Dana Warmsley, Michael Macy, Ingmar Weber4 Published in ICWSM 2017.
 
