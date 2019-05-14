@@ -17,7 +17,7 @@ The repository is structured as follows:
 2. `05_final_report.Rmd` analysis both the original and new data to replicate and extend the results of the original paper, and produces the final report `05_final_report.pdf`
 
 Colab notebook links:
-https://colab.research.google.com/drive/1LNLkaRnlGfxSEIFpITW1tksxwC3SXAoX#scrollTo=f1EMZjSyZZ1k	multiclass replication
+`https://colab.research.google.com/drive/1LNLkaRnlGfxSEIFpITW1tksxwC3SXAoX#scrollTo=f1EMZjSyZZ1k`	multiclass replication
 
 https://colab.research.google.com/drive/1kjCE2owX_s6yCK7pp7SkBY5ytKXfHs-n#scrollTo=f1EMZjSyZZ1k	transfer_learning_binary
 
