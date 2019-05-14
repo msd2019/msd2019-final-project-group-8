@@ -20,6 +20,14 @@ The repository is structured as follows:
 
 5. `extension/Extension_with_Twitter_Data ` - contains replication of author's approach on twitter data
 
+6. `extension/Binary_class_replication ` - Replication of author's approach on binary class version of the author's data
+
+7. `extension/Transfer_Learning_binary_classification ` - Using universal embeddings on binary class version of author's data
+
+8. `extension/Transfer_Learning_multiclass ` - Using universal embeddings on author's original data
+
+9. `extension/single_class_Base_paper_replication ` - a binary class replication of the author's paper
+
 Datasets:
 We use the following datasets in our codes:
 1. Original author's data: https://github.com/t-davidson/hate-speech-and-offensive-language/tree/master/data
