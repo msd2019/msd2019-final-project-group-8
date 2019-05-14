@@ -19,15 +19,15 @@ The repository is structured as follows:
 Colab notebook links:
 
 
-[multiclass base paper replication](https://colab.research.google.com/drive/1LNLkaRnlGfxSEIFpITW1tksxwC3SXAoX#scrollTo=f1EMZjSyZZ1k)	
+[Multiclass Base paper replication](https://colab.research.google.com/drive/1LNLkaRnlGfxSEIFpITW1tksxwC3SXAoX#scrollTo=f1EMZjSyZZ1k)	
 
-Binary class base paper extension: https://colab.research.google.com/drive/1EjDzQ2JWiRdNDzZV-EB7c3QIxV-kY4xm#scrollTo=LkO291wljIJv	
+[Binary class base paper extension](https://colab.research.google.com/drive/1EjDzQ2JWiRdNDzZV-EB7c3QIxV-kY4xm#scrollTo=LkO291wljIJv)	
 
-Transfer_learning_binary class: https://colab.research.google.com/drive/1kjCE2owX_s6yCK7pp7SkBY5ytKXfHs-n#scrollTo=f1EMZjSyZZ1k	
+[Transfer_learning_binary class](https://colab.research.google.com/drive/1kjCE2owX_s6yCK7pp7SkBY5ytKXfHs-n#scrollTo=f1EMZjSyZZ1k)	
 
-Transfer Learning multiclass: https://colab.research.google.com/drive/1LNLkaRnlGfxSEIFpITW1tksxwC3SXAoX#scrollTo=f1EMZjSyZZ1k	
+[Transfer Learning multiclass](https://colab.research.google.com/drive/1LNLkaRnlGfxSEIFpITW1tksxwC3SXAoX#scrollTo=f1EMZjSyZZ1k)
 
-Train test_both_data: https://colab.research.google.com/drive/1Jl_IAWQr5LQDJeHY9oBRV6a-7OM2Dt8i	
+[Train test_both_data](https://colab.research.google.com/drive/1Jl_IAWQr5LQDJeHY9oBRV6a-7OM2Dt8i)
 
 Exploratory Data Analysis on Binary Class Data: https://colab.research.google.com/drive/1ZipL4JyimrM8lVV4_nAo2iXJiHr_FXoo	
 
