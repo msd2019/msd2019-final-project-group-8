@@ -51,6 +51,34 @@ Exploratory Data Analysis on Binary Class Data: https://colab.research.google.co
 
 Exploratory data analysis on multiclass data: https://colab.research.google.com/drive/1hfhtsm5NZeEYeRTI-B0dLqYUPjmAHdXM	
 
+
+#Additional analysis:
+
+While not a direct part of our extension, we have also performed some more analysis:
+
+This notebook contains transfer learning with out of sample prediction on the white supremacist dataset. To rpelicate it and run upload the "labelled_data.csv" file and "all_tweets.csv" file, conclusions are towards the end of the notebook:
+https://colab.research.google.com/drive/16ORmkAg6flQs7f4n34ObLBAuCM6oiE9t
+
+We side with the author's observations in analysis of misclassified tweets that tweets containing a lot of slurs or curse words are frequently misclassified as hate speech.
+We also see that the model has difficulty picking up directed hate, for example, the nonhate tagged tweets have the subject targetted however we see that either no profanity or negative sentiment word is in use or that there are shortened spellings.
+
+We use the universal embedding deep learning model on youtube comments, our code can be found here:
+https://colab.research.google.com/drive/1LQa3zxup6kc56jrqVVEoxNleRCs0AwCv
+
+To replicate it, you just need to enter your youtubeAPI key(which we haven't posted since the link is being made public) and upload the labelled_csv dataset.
+
+Here are our findings:
+
+Upon analysing these results, we see that more polar ones do get classified as hate. We also notice that the model classifies neutral ones more correctly than it does hate. Hate still has some false positives, which is okay as we mentioned in our original motivation.
+
+We conclude while the trained on twitter datamight not generalize perfectly, it does well enough. The misclassifications occur primarily because the underlying data for both the tasks is different.
+
+One might question the volatility of the model since it worked well enough on the hearings comments but did not do well on the white supremacist data. For this, we go back to our exploratory data analysis notebooks, the analysis showed that most of the tweets we had were derogatory towards women, the content of the youtube comments was similar and perhaps that's why the model would've performed reasonably better on the gender comments.  
+
+Hence, to be able to do more accurate hate speech classification in the general environment, perhaps it would be better to train on datasets focused on combinations of certain types of hate speech and then use that to predict in a general setting such as youtube or twitter. 
+
+Our original plans included performing a hate speech based analysis of comment sections of various youtubers, however, we now realize that perhaps in order to do that, it would be a much better idea to look at kinds of hate speech and then use those separate datasets, either as separate models or as one common model. 
+
 ----
 
 Notes:
