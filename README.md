@@ -28,33 +28,10 @@ The repository is structured as follows:
 
 9. `extension/single_class_Base_paper_replication ` - a binary class replication of the author's paper
 
-Datasets:
-We use the following datasets in our codes:
-1. Original author's data: https://github.com/t-davidson/hate-speech-and-offensive-language/tree/master/data
-2. Hate Speech Data from a white supremacist forum: https://github.com/aitor-garcia-p/hate-speech-dataset
 
-Colab notebook links:
-To run these colab notebooks, upload the files from data and feed the path of the uploaded files to read_csv functions in the notebook.
-All files need only the file "labelled_data.csv" apart from "Train test both data" which needs "labelled_data.csv" and "all_tweets.csv"
+# Additional analysis:
 
-multiclass base paper replication: https://colab.research.google.com/drive/1LNLkaRnlGfxSEIFpITW1tksxwC3SXAoX#scrollTo=f1EMZjSyZZ1k	
-
-Binary class base paper extension: https://colab.research.google.com/drive/1EjDzQ2JWiRdNDzZV-EB7c3QIxV-kY4xm#scrollTo=LkO291wljIJv	
-
-Transfer_learning_binary class: https://colab.research.google.com/drive/1kjCE2owX_s6yCK7pp7SkBY5ytKXfHs-n#scrollTo=f1EMZjSyZZ1k	
-
-Transfer Learning multiclass: https://colab.research.google.com/drive/1LNLkaRnlGfxSEIFpITW1tksxwC3SXAoX#scrollTo=f1EMZjSyZZ1k	
-
-Train test_both_data: https://colab.research.google.com/drive/1Jl_IAWQr5LQDJeHY9oBRV6a-7OM2Dt8i	
-
-Exploratory Data Analysis on Binary Class Data: https://colab.research.google.com/drive/1ZipL4JyimrM8lVV4_nAo2iXJiHr_FXoo	
-
-Exploratory data analysis on multiclass data: https://colab.research.google.com/drive/1hfhtsm5NZeEYeRTI-B0dLqYUPjmAHdXM	
-
-
-#Additional analysis:
-
-While not a direct part of our extension, we have also performed some more analysis:
+We have also performed some more analysis:
 
 This notebook contains transfer learning with out of sample prediction on the white supremacist dataset. To rpelicate it and run upload the "labelled_data.csv" file and "all_tweets.csv" file, conclusions are towards the end of the notebook:
 https://colab.research.google.com/drive/16ORmkAg6flQs7f4n34ObLBAuCM6oiE9t
@@ -78,6 +55,32 @@ One might question the volatility of the model since it worked well enough on th
 Hence, to be able to do more accurate hate speech classification in the general environment, perhaps it would be better to train on datasets focused on combinations of certain types of hate speech and then use that to predict in a general setting such as youtube or twitter. 
 
 Our original plans included performing a hate speech based analysis of comment sections of various youtubers, however, we now realize that perhaps in order to do that, it would be a much better idea to look at kinds of hate speech and then use those separate datasets, either as separate models or as one common model. 
+
+
+
+Datasets:
+We use the following datasets in our codes:
+1. Original author's data: https://github.com/t-davidson/hate-speech-and-offensive-language/tree/master/data
+2. Hate Speech Data from a white supremacist forum: https://github.com/aitor-garcia-p/hate-speech-dataset
+
+Colab notebook links:
+To run these colab notebooks, upload the files from data and feed the path of the uploaded files to read_csv functions in the notebook.
+All files need only the file "labelled_data.csv" apart from "Train test both data" which needs "labelled_data.csv" and "all_tweets.csv"
+
+multiclass base paper replication: https://colab.research.google.com/drive/1LNLkaRnlGfxSEIFpITW1tksxwC3SXAoX#scrollTo=f1EMZjSyZZ1k	
+
+Binary class base paper extension: https://colab.research.google.com/drive/1EjDzQ2JWiRdNDzZV-EB7c3QIxV-kY4xm#scrollTo=LkO291wljIJv	
+
+Transfer_learning_binary class: https://colab.research.google.com/drive/1kjCE2owX_s6yCK7pp7SkBY5ytKXfHs-n#scrollTo=f1EMZjSyZZ1k	
+
+Transfer Learning multiclass: https://colab.research.google.com/drive/1LNLkaRnlGfxSEIFpITW1tksxwC3SXAoX#scrollTo=f1EMZjSyZZ1k	
+
+Train test_both_data: https://colab.research.google.com/drive/1Jl_IAWQr5LQDJeHY9oBRV6a-7OM2Dt8i	
+
+Exploratory Data Analysis on Binary Class Data: https://colab.research.google.com/drive/1ZipL4JyimrM8lVV4_nAo2iXJiHr_FXoo	
+
+Exploratory data analysis on multiclass data: https://colab.research.google.com/drive/1hfhtsm5NZeEYeRTI-B0dLqYUPjmAHdXM	
+
 
 ----
 
