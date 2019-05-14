@@ -1,6 +1,6 @@
 # Final Project for Modeling Social Data, 2019
 
-< YOUR NAMES (AND UNIS) >
+< Ketakee Nimavat (kkn2112), Chandana priya (cg3111), Ankit Peshin (ap3772) >
 
 This repository has code to attempt to replicate and extend the results in < PAPER TITLE > by < ORIGINAL AUTHORS >, < PUBLISHED IN >.
 
