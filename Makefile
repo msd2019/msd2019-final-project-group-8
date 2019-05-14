@@ -7,6 +7,10 @@ labeled_data.p:
 05_final_report.html: labeled_data.p
 	jupyter nbconvert --to pdf 05_final_report.ipynb
 
+	jupyter nbconvert --to pdf extension/Transfer_Learning_binary_classification_new_data.ipynb
+	
+	jupyter nbconvert --to pdf extension/Youtube_comment_scraping.ipynb
+	
 	jupyter nbconvert --to pdf extension/Extension_with_Twitter_Data.ipynb
 	
 	jupyter nbconvert --to pdf extension/Exploratory_data_analysis.ipynb
